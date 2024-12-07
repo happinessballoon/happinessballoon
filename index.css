@@ -1,0 +1,107 @@
+/* .Service {
+    background-color: #ffeeeedd;
+}
+.History {
+    background-color: #eeffeedd;
+}
+.Contact {
+    background-color: #ffffffdd;
+} */
+
+.member_boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    column-gap: 10px;
+    margin: 30px;
+
+    overflow: auto;
+    scrollbar-color: #ff888888 #e0e0e000;
+    scrollbar-width: thin;
+}
+
+.member_box {
+
+    height: 30vh;
+    width: 20vh;
+    flex-shrink: 0;
+    margin: 5px;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #ff5555;
+    background: #FFF;
+    border: solid 3px #ff5555;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    align-items: center;
+    box-shadow: 0.5vw 0.5vw 0.5vw #ff5555;
+    transition: 50ms ease-out;
+}
+
+.member_box:hover{
+    transform:scale(105%,105%);
+}
+/* @font-face{
+    font-family:"rounded-x-mgenplus-1c-black.ttf";
+    src: url(font/rounded-x-mgenplus-1c-black.ttf);
+} */
+
+.member_box > p {
+    height: 3vh;
+    font-family: "rounded-x-mgenplus-1c-black.ttf";
+}
+
+.member_box_image {
+
+    width: 80%;
+    border-radius: 50%;
+    border: solid 3px #ff5555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*★退避用 @font-face{
+    font-family:"rounded-x-mgenplus-1c-black.ttf";
+    src: url(font/rounded-x-mgenplus-1c-black.ttf);
+}*/

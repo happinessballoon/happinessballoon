@@ -1,0 +1,78 @@
+.members{
+    margin: 2% 2%;
+}
+
+.member{
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+    padding: 5% 5%;
+    background-color: #ffffffff;
+    border-radius: 20px;
+    border: solid 3px #ff5555;
+
+}
+
+.member_1{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.member_image{
+    width: calc(8vw + 50px);
+    height: calc(8vw + 50px);
+    border-radius: 50%;
+    border: solid 3px #ff5555;
+}
+
+.member_profile{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-left: calc(10px + 2vw);
+}
+
+.member_profile > p{
+    margin:0;
+}
+
+.member_tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.member_tag{
+    width: auto;
+    margin:0;
+    background-color: #dddddd;
+    border-radius: 5px;
+    padding: 3px 3px;
+    margin: 3px;
+}
+
+.member_name{
+    color: #ff5555;
+    font-size: 6vh;
+    font-weight: 550;
+    word-break: break-all;
+}
+
+.member_hitokoto{
+    margin-top: 10px;
+    background-color: #ffdddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.member_x_link{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 4vh;
+    padding: 0 10px;
+    border-radius: 25%;
+}
