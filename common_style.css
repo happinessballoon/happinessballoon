@@ -59,19 +59,30 @@ a {
     font-size: calc( var(--header-height) * 0.8);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .title_text {
         display: none;
     }
 }
-    @media screen and (min-width: 700px) {
-    /* ここに横幅が767pxより大きい時に発動するスタイルを記述 */
+    @media screen and (min-width: 900px) {
+    /* ここに横幅がそれより大きい時に発動するスタイルを記述 */
+}
+
+.menu-group {
+    margin-left: calc(10px + 1vw);
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: none;
+    align-items: center;
+    align-content: center;
+    scrollbar-color: #ff888888 #e0e0e000;
+    scrollbar-width:none;
 }
 
 .menu-item {
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
+    margin-right: calc(10px + 1vw);
     font-size: calc( var(--header-height) * 0.4);
 }
 
@@ -114,7 +125,7 @@ a {
 }
 
 .head_text {
-    height: 100%;
+    height: calc(100% - var(--header-height));
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -162,6 +173,8 @@ span {
 
 .main {
     background-color: #ffffffdd;
+    margin-top: var(--header-height);
+    min-height: 100%;
 }
 
 .main-text {
@@ -189,7 +202,8 @@ span {
 
 
 hr {
-    border-top: 2px solid #00000088;
+    border-top: 2px solid #FF555588;
+    margin: 5vh 0;
 }
 
 td {
