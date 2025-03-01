@@ -5,12 +5,12 @@ html {
     background-position-x: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* font-family: "Helvetica Neue",
+    font-family: "Helvetica Neue",
     "Arial",
     "Hiragino Kaku Gothic ProN",
     "Hiragino Sans",
     "Meiryo",
-    sans-serif; */
+    sans-serif;
     margin: 0;
     scroll-behavior: smooth;
     font-size: 20px;
@@ -197,7 +197,7 @@ span {
     color: #FF000055;
     margin-left: 15px;
     margin-top: auto;
-    margin-bottom: 2vh;
+    margin-bottom: 0;
 }
 
 
